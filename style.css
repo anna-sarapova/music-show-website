@@ -1,0 +1,241 @@
+
+.logo-image{
+    width: 22vw;
+    height: 22vh;
+    vertical-align: middle;
+}
+
+body {
+    background-image: url("assets/screen1.png");
+    font-family: Monda;
+    margin: 0px;
+    background-repeat: no-repeat;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #E0E0E0;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+    width: 0px;
+    background: transparent;
+}
+
+#home{
+    padding-left: 8vw;
+}
+
+.topnav{
+    padding-top: 4vh;
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-family: Monda;
+    font-size: 3vh;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.topnav a:hover {
+    color: #9914e1;
+}
+
+.topnav a.active {
+    color: #9914e1;
+    font-weight: bold;
+}
+
+.man-image{
+    float: right;
+    width: 27.15vw;
+}
+
+.music-img{
+    width: 70vw;
+    height: 19vw;
+    display: flex;
+    justify-content: center;
+}
+
+.music-img img{
+    margin-left: 5vw;
+}
+
+.text-img{
+    display: flex;
+    justify-content: center;
+}
+
+.diagonal-text{
+    width: 30vw;
+    height: 9vw;
+}
+
+.purple-text{
+    color:#9914e1;
+    font-weight: bold;
+}
+
+.home-text{
+    font-family: Monda;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 9vh;
+}
+
+.purple-sheet {
+    background-image: url("assets/transition-sheet.svg");
+    margin: 0px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.white-text{
+    color: #E0E0E0;
+    font-weight: bolder;
+}
+
+.black-text{
+    color: black;
+}
+
+.sheet-text{
+    font-weight: bolder;
+    font-size: 8.8ex;
+    font-family: Staatliches;
+    word-spacing: 5px;
+    position: relative;
+    left: 20vw;
+}
+
+.sheet-small-text{
+    font-family: Monda;
+    font-size: 2ex ;
+    margin-top: 11vh;
+    margin-left: 30vw;
+    line-height: 16pt;
+}
+
+.button{
+    font-family: Monda;
+    font-weight: bold;
+    font-size: 1.8ex ;
+    background-color: #9914e1;
+    border: 3px solid white;
+    color: white;
+    padding: 5px 55px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 30vw;
+    border-radius: 25px;
+}
+
+.tickets{
+    background-image: url("assets/tickets-background.svg");
+    height: 1200px;
+    background-repeat: no-repeat;
+}
+
+.reserve-tickets{
+    font-weight: bolder;
+    font-size: 12ex;
+    font-family: Staatliches;
+    word-spacing: 5px;
+    position: relative;
+    left: 44vw;
+    top: 51vh;
+}
+
+.column-text{
+    display: flex;
+    margin-left: 44vw;
+    margin-top: 58vh;
+ }
+
+.tickets-column-2{
+    margin-left: 20px;
+}
+
+.tickets-button{
+    font-family: Monda;
+    font-weight: bolder;
+    font-size: 1.8ex ;
+    background-color: #E0E0E0;
+    border: 4px solid #9914e1;
+    color: #9914e1;
+    padding: 5px 65px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.carousel-photos{
+    display: flex;
+    width: 23vw;
+    height: 23vh;
+    margin-top: 17vh;
+    margin-left: 30.3vw;
+}
+
+.carousel-img{
+    padding-left: 2em;
+}
+
+.footer{
+    background-image: url("assets/footer_background_01-01.svg");
+    background-size: 1550px;
+    height: 580px;
+    background-repeat: no-repeat;
+    display: flex;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    background-color: #E0E0E0;
+}
+
+footer::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+    width: 0px;
+    background: transparent;
+}
+
+.footer-logo{
+    width: 25vw;
+    height: 25vh;
+    margin-top: 6vw;
+}
+
+.bold-text{
+    font-weight: 900;
+}
+
+.list{
+    font-family: Monda;
+    margin-top: 6vw;
+    line-height: 30pt;
+    font-size: large;
+    margin-left: 10vw;
+}
+
+.footer-button{
+    font-family: Monda;
+    font-weight: bolder;
+    font-size: 1.8ex ;
+    background-color: #E0E0E0;
+    border: 4px solid #9914e1;
+    color: #9914e1;
+    padding: 5px 65px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 10vw;
+    margin-top: 8vw;
+}
+
